@@ -14,5 +14,4 @@ public class SfgDiApplication {
 		String greeting = myController.sayHello();
 		System.out.println(greeting);
 	}
-
 }

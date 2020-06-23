@@ -1,0 +1,23 @@
+#This is the comment
+
+Names:
+    -Rick
+    -Johny
+    -Kate
+
+some_string: "this is a string"
+
+book:
+  author:  John Kennedy
+  publisher:  New York Times
+
+include_new_strings:
+  dfgdfg dfgdfg dbgdf
+  dfgdf cbsadw
+  sdggf fgsf cfdbdd
+
+ignore_new_strings:
+  fgdg fdf jnasc
+  asdfnjn
+  sad kpok ds
+

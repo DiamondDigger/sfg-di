@@ -11,12 +11,12 @@ book:
   author:  John Kennedy
   publisher:  New York Times
 
-include_new_strings:
+include_new_strings:  |
   dfgdfg dfgdfg dbgdf
   dfgdf cbsadw
   sdggf fgsf cfdbdd
 
-ignore_new_strings:
+ignore_new_strings:  >
   fgdg fdf jnasc
   asdfnjn
   sad kpok ds

@@ -5,15 +5,8 @@ import guru.springframework.sfgdi.examplebeans.FakeJMSBroker;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
-import org.springframework.context.annotation.PropertySources;
-import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 @Configuration
-@PropertySources({
-        @PropertySource("classpath:datasource.properties"),
-        @PropertySource("classpath:jms_broker.properties")
-})
 public class JavaConfig {
 
     @Value("${guru.userName}")
@@ -52,11 +45,5 @@ public class JavaConfig {
         fakeJMSBroker.setJms_dbUrl(jms_dbUrl);
 
         return fakeJMSBroker;
-    }
-
-    @Bean
-    public static PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer(){
-        PropertySourcesPlaceholderConfigurer placeholderConfigurer = new PropertySourcesPlaceholderConfigurer();
-        return placeholderConfigurer;
     }
 }

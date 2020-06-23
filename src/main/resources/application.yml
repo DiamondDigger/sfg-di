@@ -3,3 +3,11 @@ guru:
     userName:  JMS username
     password:  JMS password
     dbUrl:  www.JMS.com
+
+---
+spring:
+  profile:  de
+guru:
+  jms:
+    userName: JMX German username
+    password: Red flag
